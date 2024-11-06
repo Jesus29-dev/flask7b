@@ -10,6 +10,8 @@ import mysql.connector
 import datetime
 import pytz
 
+form flask_cors import CORS, cross_origin
+
 con = mysql.connector.connect(
     host="185.232.14.52",
     database="u760464709_tst_sep",
